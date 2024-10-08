@@ -52,10 +52,10 @@ def product_list(request):
 def search_view(request):
     form = SearchForm(request.GET or None)
     results = Product.objects.all()  # クエリセットの初期化
-    if form.is_valid():
-        query = form.cleaned_data["query"]
-        if query:
-            results = results.filter(name__icontains=query)
+
+    query = request.GET.get("search_word")
+    if query:
+        results = results.filter(name__icontains=query)
     # カテゴリフィルタリング
     category_name = request.GET.get("category")
     if category_name:

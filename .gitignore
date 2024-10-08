@@ -1,2 +1,6 @@
 __pycache__
 migrations
+.DS_Store
+venv
+
+whatareyou_venv
