@@ -7,6 +7,8 @@
 - just do this!
 ```
 $ source whatareyou_venv/bin/activate
+
+$ python3 manage.py runserver
 ```
 
 <br>
