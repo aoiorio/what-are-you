@@ -1,5 +1,13 @@
 ## 👀 Images
-<img src="./readme_images/image.png" width=400>
+<img src="./readme_images/image.png">
+
+<br>
+
+## 😉 How To
+- just do this!
+```
+$ source whatareyou_venv/bin/activate
+```
 
 <br>
 
